@@ -57,11 +57,28 @@ ZIP에 설치에 필요한 파일이 모두 포함되어 있습니다. 실행 �
 
 게임을 종료하고 현재 패치의 `ux0:rePatch/PCSE00651` 폴더를 별도 위치로 옮긴 뒤 백업한 폴더 전체를 복원합니다. 실행 파일·XML·글꼴을 함께 복원하세요. 게임 원본 app 폴더와 세이브는 수정하지 않습니다.
 
-## 출처
+## 제작 및 출처
 
-- [PC판 한글패치 v1.1](https://gall.dcinside.com/mgallery/board/view/?id=indiegame&no=110897) — 본 이식의 번역 기반
-- [rePatch](https://github.com/dots-tb/rePatch-reDux0)
-- [vita-toolchain](https://github.com/vitasdk/vita-toolchain) — SELF 구성 참고 및 이전 빌드 도구
-- [Vita3K](https://github.com/Vita3K/Vita3K) — SELF·재배치 포맷 확인 참고
+### PC판 원번역·한글패치
 
-원번역 출처를 유지합니다. 이 저장소는 비공식 PSV 이식 작업입니다. 공개 라이선스가 확인되지 않은 번역과 게임 관련 자료에 임의의 오픈소스 라이선스를 부여하지 않습니다.
+- **제작·배포: 빗소리P** — 아래 원배포글의 작성자입니다.
+- **원배포글:** [Axiom Verge 한글 패치(1.0) — 인디게임 마이너 갤러리](https://gall.dcinside.com/mgallery/board/view/?id=indiegame&no=110897) (2023년 12월 5일)
+- 이 PSV 이식은 제공받은 PC판 한글패치의 번역문과 한글 글꼴 자료를 기반으로 제작했습니다. PSV에 맞게 텍스트와 글꼴을 적용하고, 일부 표현과 오타를 수정했습니다.
+- 원배포글에 별도의 번역 참여자 명단이 없어, 확인 가능한 제작·배포자 이름을 표기했습니다. 추가 참여자 정보가 확인되면 보완하겠습니다.
+
+### PSV 이식 및 실기 확인
+
+- **YourFaceMonster** — PSV 이식 프로젝트 진행, 실기 테스트 및 배포
+- **Codex (OpenAI)** — 파일 구조 분석, 번역 데이터·글꼴 적용, 실행 파일 수정 및 패키지 제작 지원
+
+PC판 원번역 제작과 PSV 이식 작업의 역할을 구분하여 표기합니다. 이 저장소는 비공식 PSV 이식 작업이며, 원제작자의 공식 PSV 배포물은 아닙니다.
+
+### 사용 도구 및 기술 참고
+
+| 도구 | 제작자·기여자 | 사용 및 참고 내용 |
+| --- | --- | --- |
+| [rePatch reDux0](https://github.com/dots-tb/rePatch-reDux0) | dots-tb, CelesteBlue, SilicaAndPina | PSV에서 패치 파일을 적용하는 플러그인 |
+| [vita-toolchain](https://github.com/vitasdk/vita-toolchain) | VitaSDK 프로젝트 기여자들 | SELF 실행 파일 구성 참고 및 빌드 도구 |
+| [Vita3K](https://github.com/Vita3K/Vita3K) | Vita3K 프로젝트 기여자들 | SELF 및 재배치 포맷 분석 참고 |
+
+번역문과 글꼴 등 원자료의 출처를 유지합니다. 공개 라이선스가 확인되지 않은 번역과 게임 관련 자료에 임의의 오픈소스 라이선스를 부여하지 않습니다.
